@@ -1,0 +1,64 @@
+body{
+    
+    
+}
+
+#navbar {
+    width: 100vw;
+    height: 10%;
+    background-color: transparent;
+    position: fixed;
+}
+
+#logo {
+    height: 70px;
+    position: absolute;
+}
+
+#Navbuttons {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+#button {
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    position: relative;
+    padding-bottom: 5px; /* Add padding to accommodate the underline */
+}
+
+#button::before {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Position underline at the bottom of the button */
+    left: 0;
+    width: 0;
+    height: 2px;
+    width: 2px;;
+    background: white;
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+#button:hover::before {
+    width: 100%; /* Expand the underline to the full width on hover */
+}
+
+#back{
+    width:100vw;
+    height:100vh;
+    background-color: blue;
+    overflow-x:hidden;
+    overflow: hidden;
+}
+#backimg{
+    height: 100%;
+    
+}
